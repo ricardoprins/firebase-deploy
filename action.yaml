@@ -1,11 +1,11 @@
 name: Firebase Deployment
 author: Ricardo Prins <ricardoprins@gmail.com>
 description: Tool to be used to deploy stuff to Firebase
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
 inputs:
   params:
     description: Parameters to Firebase deployment command
     required: false
     default: ''
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
