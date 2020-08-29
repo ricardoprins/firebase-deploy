@@ -6,6 +6,6 @@ inputs:
     description: Parameters to Firebase deployment command
     required: false
     default: ''
-  runs:
-    using: 'docker'
-    image: 'Dockerfile'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
